@@ -8,7 +8,8 @@ int main()
     num1 = 12;
     num2 = 12;
     num3 = num1 + num2;
-    cout << " hello world ";
-    cout << " hello AKASH ";
+    cout << " hello world "<<endl;
+    cout << " hello AKASH "<<endl;
+    cout << num3<<endl;
     return 0;
 }
