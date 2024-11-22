@@ -1,10 +1,7 @@
 # include <iostream>
 
 using namespace std;
-
-int main(){
-
-    class book{
+class book{
         private:
         int bookId,pages;
         float price;
@@ -29,6 +26,10 @@ int main(){
             return price;
         }
     };
+
+int main(){
+
+    
 
     book bk1;
     bk1.get_data();
