@@ -18,11 +18,11 @@ class String{
     void show(){
         cout<<"The string you enter is :"<<str<<endl;
     }
-    String operator == (String s){
+    bool operator == (String s){
         if(strlen(s.str) == strlen(str))
-            return 1;
+            return true;
         else 
-            return 0;
+            return false;
     }
 };
 int main(){

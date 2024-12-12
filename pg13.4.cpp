@@ -52,7 +52,7 @@ int main(){
     float pricebk2 = bk2.get_price();
 
     cout<<"The costly book is as follow: "<<endl;
-    if(pricebk1< pricebk2){
+    if(pricebk1 > pricebk2){
         bk1.show();
     }else {
         bk2.show();
